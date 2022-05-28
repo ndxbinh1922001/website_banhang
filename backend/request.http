@@ -1,0 +1,10 @@
+GET http://localhost:5000/api/products/slug/nike-slim-shirt
+
+###
+POST http://localhost:5000/api/users/signin
+Content-Type:  application/json
+
+{
+    "email":"user@example.com",
+    "password":"123456"
+}
